@@ -1,0 +1,8 @@
+nexocrm:
+  exchange-rates:
+    # Puerto cerrado: fuerza el uso de las tasas de respaldo sin salir a internet
+    url: http://127.0.0.1:9/latest
+    timeout: 500ms
+  webhooks:
+    timeout: 500ms
+    max-attempts: 1
