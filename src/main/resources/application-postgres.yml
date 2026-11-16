@@ -1,0 +1,9 @@
+# Perfil de producción: activar con SPRING_PROFILES_ACTIVE=postgres
+spring:
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/nexocrm}
+    username: ${DATABASE_USER:nexocrm}
+    password: ${DATABASE_PASSWORD:nexocrm}
+  h2:
+    console:
+      enabled: false
